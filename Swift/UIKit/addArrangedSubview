@@ -1,7 +1,0 @@
-#addArrangedSubview
-3차 세미나 실습을 하다가 처음 보게 된 속성이다. 이전까지 사용했던 addSubview와는 무엇이 다른지 알아보았다.
-
-##addSubview vs addArrangedSubview
-
-먼저 addSubview의 공식문서 정의는 이렇다.
-> This method establishes a strong reference to view and sets its next responder to the receiver, which is its new superview. Views can have only one superview. If view already has a superview and that view is not the receiver, this method removes the previous superview before making the receiver its new superview.
