@@ -21,7 +21,7 @@ Custom Alert을 만든 상황이라, 따로 UIView의 형태로 만들어서 현
     }
 ```
 코드 더러움 주의..
-탈퇴 버튼 탭 시 ```withdrawalAlertView``가 보여지는 ```showAlert()```를 사용하고자 했다.
+탈퇴 버튼 탭 시 ```withdrawalAlertView```가 보여지는 ```showAlert()```를 사용하고자 했다.
 
 ```swift
 //WithdrawalAlertView.swift
