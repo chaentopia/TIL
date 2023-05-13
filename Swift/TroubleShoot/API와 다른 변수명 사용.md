@@ -12,7 +12,7 @@ struct Weather: Codable { // Error: Type 'Weather' does not conform to protocol 
     }
 }
 ```
-이 과정 속에서 `Type 'Weather' does not conform to protocol 'Decodable'라는 이슈가 발생했는데, 이유는 바로 enum에 모든 상수들의 case를 따져주지 않았기 때문이었다.. 그래서 모든 케이스를 선언해주었더니 바로 해결이 되었다..
+이 과정 속에서 `Type 'Weather' does not conform to protocol 'Decodable'`라는 이슈가 발생했는데, 이유는 바로 enum에 모든 상수들의 case를 따져주지 않았기 때문이었다.. 그래서 모든 케이스를 선언해주었더니 바로 해결이 되었다..
 ```swift
 struct Weather: Codable {
     let id: Int
